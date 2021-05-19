@@ -9,7 +9,7 @@ public class SnS : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
-		
+
 		DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
