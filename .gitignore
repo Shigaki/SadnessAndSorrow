@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/VFX/WeatherEffects/NS_Leaf.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/TreeStyle_02.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/TreeIT_01.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/SMF_TreeStyle_5.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/SMF_TreeStyle_4.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/SMF_TreeStyle_3.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/SMF_TreeStyle_2.uasset
+Content/NewWorld/Game/Props/Fooliege/Tree/PFS_Trees.uasset
+Content/NewWorld/Game/Props/Fooliege/Grass/M_Grass.uasset
+Content/Maps/Florests_LVL1.umap
