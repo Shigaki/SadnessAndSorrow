@@ -8,7 +8,16 @@ public class SnS : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AdvancedSessions", "AdvancedSteamSessions" });
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"AdvancedSessions",
+			"AdvancedSteamSessions",
+			"AIModule"
+		});
 
 		DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 

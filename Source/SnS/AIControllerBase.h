@@ -15,7 +15,7 @@ class SNS_API AAIControllerBase : public AAIController
 	GENERATED_BODY()
 
 public:
-	void GetActorEyesViewPoint(FVector& out_Location, FRotator& out_Rotation) const override;
+	virtual void GetActorEyesViewPoint(FVector& out_Location, FRotator& out_Rotation) const override;
 	UFUNCTION(BlueprintImplementableEvent, Category = "AICBase")
 	void BPGetActorEyesViewPoint(FVector& out_Location, FRotator& out_Rotation) const;
 };
