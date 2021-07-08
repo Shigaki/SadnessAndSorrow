@@ -16,7 +16,9 @@ public class SnS : ModuleRules
 			"InputCore",
 			"AdvancedSessions",
 			"AdvancedSteamSessions",
-			"AIModule"
+			"AIModule",
+			"NavigationSystem",
+			"GameplayTasks"
 		});
 
 		DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");

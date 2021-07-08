@@ -4,6 +4,7 @@
 #include "EnemyCharacterBase.h"
 
 #include "EnemyAIControllerBase.h"
+#include "Components/RoamingComponent.h"
 
 // Sets default values
 AEnemyCharacterBase::AEnemyCharacterBase()
@@ -12,6 +13,8 @@ AEnemyCharacterBase::AEnemyCharacterBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	AIControllerClass = AEnemyAIControllerBase::StaticClass();
+
+	RoamingComponent = CreateDefaultSubobject<URoamingComponent>(TEXT("Roaming Component"));
 }
 
 // Called when the game starts or when spawned
